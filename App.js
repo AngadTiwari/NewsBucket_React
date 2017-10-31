@@ -26,25 +26,9 @@ export default class App extends Component {
       uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
     };
     return (
-      // <View style={styles.container}>
-      //   <Image source={pic} style={{width: 193, height: 110}}/>
-      //   <Text style={styles.welcome}>
-      //     Welcome to React Native!
-      //   </Text>
-      //   <Text style={styles.instructions}>
-      //     To get started, edit App.js
-      //   </Text>
-      //   <Text style={styles.instructions}>
-      //     {instructions}
-      //   </Text>
-      // </View>
-    <View style={{flex: 1, flexDirection: 'column', justifyContent: 'space-between', alignItems: 'stretch'}}>
-      <View style={{flexDirection: 'row', padding: 12, backgroundColor: 'powderblue', width: 200, height: 50}} >
-        <View style={{flex: 1, backgroundColor: 'red'}} />
-        <View style={{flex: 1, backgroundColor: 'orange'}} />
-      </View>
-      <View style={{backgroundColor: 'skyblue', width: 200, height: 50}} />
-      <View style={{backgroundColor: 'steelblue', width: 200, height: 50}} />
+    <View style={{flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+      <Image source={pic} style={{backgroundColor: 'powderblue', width: 80, height: 80}} />
+      <Text style={{color: 'black', fontSize: 21}}>News Bucket</Text>
     </View>
     );
   }
