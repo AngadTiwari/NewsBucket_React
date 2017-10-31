@@ -1,0 +1,3 @@
+rootProject.name = 'NewsBucket_React'
+
+include ':app'
